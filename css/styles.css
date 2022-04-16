@@ -23,6 +23,7 @@ body {
 ul {
     list-style: none;
 }
+
         /* Navigation, logo */
 /* Logo */
 .header-logo span {
@@ -36,7 +37,6 @@ ul {
 .header-logo:focus{
     color:var(--accent-colour);
 }
-
 /* Main navigation */
 .header-nav .item {
     color: var(--primary-text-colour);
@@ -46,7 +46,10 @@ ul {
 .header-nav .item:focus {
     color:var(--accent-colour);
 }
-
+/* Change colour when active*/
+.header-nav .item.current {
+    color: var(--accent-colour);
+}
 /* Address */
 .header-address .item {
     color:var(--title-text-colour);
@@ -56,11 +59,9 @@ ul {
 .header-address .item:focus {
     color:var(--accent-colour);
 }
+
         /* Main page 1-2 */
 /*Text sections  */
-/* .section .section-title {
-    color: #212121;
-} */
 .section .section-description {
     color:var(--title-text-colour);
 }
@@ -83,6 +84,7 @@ ul {
 color: #FFFFFF;
 background-color:var(--accent-colour);
 }
+
         /* Footer */
 /* Logo */
 .footer .footer-logo {
@@ -97,7 +99,6 @@ background-color:var(--accent-colour);
     color:var(--accent-colour);
 }
 /* Address */
-
 .address .address-map {
     color: #FFFFFF;
     text-decoration: none;
