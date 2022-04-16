@@ -1,3 +1,10 @@
+:root {
+    --primary-text-colour:#212121;
+    --title-text-colour:#757575;
+    --accent-colour:#2196F3;
+    }
+
+
 /* Normalaze styles */
 h1,
 h2,
@@ -11,7 +18,7 @@ h6 {
 /* Main styles*/
 body {
     background-color: #E5E5E5;
-    color: #212121;
+    color: var(--primary-text-colour);
 }
 ul {
     list-style: none;
@@ -19,35 +26,35 @@ ul {
         /* Navigation, logo */
 /* Logo */
 .header-logo span {
-    color: #2196F3;
+    color: var(--accent-colour);
 }
 .header-logo {
     text-decoration: none;
-    color: black;
+    color: var(--primary-text-colour);
 }
 .header-logo:hover,
 .header-logo:focus{
-    color: #2196F3 ;
+    color:var(--accent-colour);
 }
 
 /* Main navigation */
 .header-nav .item {
-    color: #212121;
+    color: var(--primary-text-colour);
     text-decoration: none;
 }
 .header-nav .item:hover,
 .header-nav .item:focus {
-    color: #2196F3;
+    color:var(--accent-colour);
 }
 
 /* Address */
 .header-address .item {
-    color: #757575;
+    color:var(--title-text-colour);
     text-decoration: none;
 }
 .header-address .item:hover,
 .header-address .item:focus {
-    color: #2196F3;
+    color:var(--accent-colour);
 }
         /* Main page 1-2 */
 /*Text sections  */
@@ -55,26 +62,26 @@ ul {
     color: #212121;
 } */
 .section .section-description {
-    color: #757575;
+    color:var(--title-text-colour);
 }
 
 .hero .hero-title {
     color: #FFFFFF;
 }
 .hero .hero-button {
-    background-color: #2196F3;
+    background-color:var(--accent-colour);
     color: #FFFFFF;
 }
 .hero .hero-button:hover,
 .hero .hero-button:focus {
-    color: #212121;
+    color:var(--primary-text-colour);
     background-color: #FFFFFF;
 }
 /* 2 Page */
 .section-nav .nav-buttons:hover,
 .section-nav .nav-buttons:focus {
 color: #FFFFFF;
-background-color: #2196F3;
+background-color:var(--accent-colour);
 }
         /* Footer */
 /* Logo */
@@ -83,11 +90,11 @@ background-color: #2196F3;
     text-decoration: none;
 }
 .footer span {
-    color: #2196F3;
+    color:var(--accent-colour);
 }
 .footer .footer-logo:hover,
 .footer .footer-logo:focus {
-    color: #2196F3;
+    color:var(--accent-colour);
 }
 /* Address */
 
@@ -101,9 +108,9 @@ background-color: #2196F3;
 }
 .address .address-map:hover,
 .address .address-map:focus {
-    color: #2196F3;
+    color:var(--accent-colour);
 }
 .address-contact:hover,
 .address-contact:focus {
-    color: #2196F3;
+    color:var(--accent-colour);
 }
