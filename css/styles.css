@@ -19,6 +19,7 @@ h6 {
 body {
     background-color: #E5E5E5;
     color: var(--primary-text-colour);
+    font-family: 'Roboto', sans-serif;
 }
 ul {
     list-style: none;
@@ -32,6 +33,9 @@ ul {
 .header-logo {
     text-decoration: none;
     color: var(--primary-text-colour);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .header-logo:hover,
 .header-logo:focus{
@@ -41,6 +45,9 @@ ul {
 .header-nav .item {
     color: var(--primary-text-colour);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .header-nav .item:hover,
 .header-nav .item:focus {
@@ -54,6 +61,9 @@ ul {
 .header-address .item {
     color:var(--title-text-colour);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 .header-address .item:hover,
 .header-address .item:focus {
@@ -62,16 +72,45 @@ ul {
 
         /* Main page 1-2 */
 /*Text sections  */
-.section .section-description {
-    color:var(--title-text-colour);
+.section .section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.section .section-title.main {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
 }
 
+.section .section-title.employees {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.section .section-description {
+    color:var(--title-text-colour);
+    font-size: 14px;
+    line-height: 1.71;
+}
+.section .section-description.profesion {
+    font-size: 16px;
+    line-height: 1.19;
+}
 .hero .hero-title {
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 .hero .hero-button {
     background-color:var(--accent-colour);
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
 }
 .hero .hero-button:hover,
 .hero .hero-button:focus {
@@ -79,10 +118,26 @@ ul {
     background-color: #FFFFFF;
 }
 /* 2 Page */
+.section-nav .nav-buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
 .section-nav .nav-buttons:hover,
 .section-nav .nav-buttons:focus {
-color: #FFFFFF;
-background-color:var(--accent-colour);
+    color: #FFFFFF;
+    background-color:var(--accent-colour);
+}
+
+.section-service {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.section .section-description.work {
+    font-size: 16px;
+    line-height: 1.88;
 }
 
         /* Footer */
@@ -90,6 +145,10 @@ background-color:var(--accent-colour);
 .footer .footer-logo {
     color: #FFFFFF;
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+
 }
 .footer span {
     color:var(--accent-colour);
@@ -102,10 +161,14 @@ background-color:var(--accent-colour);
 .address .address-map {
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .address-contact {
-   color: rgba(255, 255, 255, 0.6);
-   text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .address .address-map:hover,
 .address .address-map:focus {
